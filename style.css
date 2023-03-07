@@ -2,9 +2,16 @@ body {
     background-color: cadetblue;
 }
 
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container {
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
     background-color: white;
     margin: auto;
     font-size: 0px;
@@ -14,4 +21,10 @@ body {
     border: 1px solid black;
     display: inline-block;
     box-sizing: border-box;
+}
+
+button {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 20px;
 }
